@@ -6,7 +6,7 @@ layout: default
 Aura.Filter
 =============
 
-The Aura Filter package provider validators and sanitizers for user data.
+The Aura Filter package provides validators and sanitizers for user data.
 
 Versions
 --------
