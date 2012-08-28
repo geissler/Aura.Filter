@@ -11,6 +11,6 @@ The Aura Filter package provides validators and sanitizers for user data.
 Versions
 --------
 
-- Develop: <https://github.com/auraphp/Aura.Filter/tree/develop>
+- `develop` <https://github.com/auraphp/Aura.Filter/tree/develop>
 
-- Master: <https://github.com/auraphp/Aura.Filter>
+- `master` <https://github.com/auraphp/Aura.Filter>
