@@ -1,5 +1,5 @@
 ---
-title: Aura for PHP -- PSR-0 compliant autoloader for PHP 5.4
+title: Aura for PHP -- Validate and sanitize data objects
 layout: default
 ---
 
