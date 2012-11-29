@@ -26,6 +26,7 @@ with all the available rules is to include the `instance.php` script:
 {% highlight php %}
 <?php
 $filter = require "/path/to/Aura.Filter/scripts/instance.php";
+
 {% endhighlight %}
 
 Alternatively, we can add the `Aura.Filter` package to an autoloader, and
