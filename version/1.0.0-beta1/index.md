@@ -165,6 +165,7 @@ Available Rules
   alphanumeric characters. Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'alnum');
         {% endhighlight %}
 
