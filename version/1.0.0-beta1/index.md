@@ -173,6 +173,7 @@ Available Rules
   alphabetic characters. Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'alpha');
         {% endhighlight %}
 
@@ -182,12 +183,14 @@ Available Rules
   Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'between', $max, $min);
         {% endhighlight %}
 
 - `blank`: Validate the value as being blank. Sanitize to `null`. Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'blank');
         {% endhighlight %}
 
@@ -197,6 +200,7 @@ Available Rules
   Sanitize to a strict PHP boolean. Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'bool');
         {% endhighlight %}
 
@@ -204,6 +208,7 @@ Available Rules
   cannot be sanitized. Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'creditCard');
         {% endhighlight %}
 
@@ -212,6 +217,7 @@ Available Rules
   this is to sanitize, not validate):
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::FIX, 'dateTime', $format);
         {% endhighlight %}
 
@@ -219,6 +225,7 @@ Available Rules
   value cannot be sanitized. Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'email');
         {% endhighlight %}
 
@@ -227,6 +234,7 @@ Available Rules
   Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'equalToField', 'other_field_name');
         {% endhighlight %}
 
@@ -234,6 +242,7 @@ Available Rules
   Sanitize to the specified value. Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'equalToValue', $other_value);
         {% endhighlight %}
 
@@ -242,6 +251,7 @@ Available Rules
   expect. Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'float');
         {% endhighlight %}
 
@@ -249,6 +259,7 @@ Available Rules
   array. The value cannot be sanitized. Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'inKeys', $array);
         {% endhighlight %}
 
@@ -256,6 +267,7 @@ Available Rules
   in a given array. The value cannot be sanitized. Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'inValues', $array);
         {% endhighlight %}
 
@@ -264,6 +276,7 @@ Available Rules
   expect. Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'int');
         {% endhighlight %}
 
@@ -271,6 +284,7 @@ Available Rules
   sanitized. Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'ipv4');
         {% endhighlight %}
 
@@ -279,6 +293,7 @@ Available Rules
   Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'max', $max);
         {% endhighlight %}
 
@@ -287,6 +302,7 @@ Available Rules
   miniumum.Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'min', $min);
         {% endhighlight %}
 
@@ -294,6 +310,7 @@ Available Rules
   `preg_replace()`.
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'regex', $expr);
         {% endhighlight %}
 
@@ -302,6 +319,7 @@ Available Rules
   Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'strictEqualToField', 'other_field_name');
         {% endhighlight %}
 
@@ -309,6 +327,7 @@ Available Rules
   value. Sanitize to the specified value. Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'strictEqualToValue', $other_value);
         {% endhighlight %}
 
@@ -317,6 +336,7 @@ Available Rules
   (note that this is to sanitize, not validate):
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::FIX, 'string', $find, $replace);
         {% endhighlight %}
 
@@ -324,6 +344,7 @@ Available Rules
   to cut off longer values at the right, and `str_pad()` shorter ones. Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'strlen', $len);
         {% endhighlight %}
 
@@ -333,6 +354,7 @@ Available Rules
   Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'strlenBetween', $min, $max);
         {% endhighlight %}
 
@@ -340,6 +362,7 @@ Available Rules
   Sanitize the value to cut off values longer than the maximum. Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'strlenMax', $max);
         {% endhighlight %}
 
@@ -347,6 +370,7 @@ Available Rules
   Sanitize the value to `str_pad()` values shorter than the minimum. Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'strlenMin', $min);
         {% endhighlight %}
 
@@ -354,6 +378,7 @@ Available Rules
   Optionally specify characters to trim. Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'trim', $chars);
         {% endhighlight %}
 
@@ -361,6 +386,7 @@ Available Rules
   that the file is an uploaded file. The value cannot be sanitized. Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'upload');
         {% endhighlight %}
 
@@ -368,6 +394,7 @@ Available Rules
   sanitized. Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'url');
         {% endhighlight %}
 
@@ -375,6 +402,7 @@ Available Rules
  Sanitize the value to remove non-word characters. Usage:
         
         {% highlight php %}
+        <?php
         $filter->addSoftRule('field', $filter::IS, 'word');
         {% endhighlight %}
 
