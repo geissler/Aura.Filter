@@ -15,5 +15,7 @@ Versions
 
 - `master` : <https://github.com/auraphp/Aura.Filter>
 
+- `1.0.0-beta2` : [.zip](https://github.com/auraphp/Aura.Filter/zipball/1.0.0-beta2), [.tar.gz](https://github.com/auraphp/Aura.Filter/tarball/1.0.0-beta2), [readme](version/1.0.0-beta2/), [api](version/1.0.0-beta2/api/)
+
 - `1.0.0-beta1` : [.zip](https://github.com/auraphp/Aura.Filter/zipball/1.0.0-beta1), [.tar.gz](https://github.com/auraphp/Aura.Filter/tarball/1.0.0-beta1), [readme](version/1.0.0-beta1/), [api](version/1.0.0-beta1/api/)
 
